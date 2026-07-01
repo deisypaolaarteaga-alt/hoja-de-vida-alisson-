@@ -1,0 +1,147 @@
+.projects {
+  margin-bottom: var(--space-4);
+}
+
+.section-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--bronze);
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  margin-bottom: var(--space-3);
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.project-card {
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.project-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: 0.3rem;
+}
+
+.project-head h3 {
+  font-size: 1.45rem;
+}
+
+.project-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--slate);
+  border: 1px solid var(--slate);
+  padding: 0.2rem 0.55rem;
+  white-space: nowrap;
+  text-transform: lowercase;
+  flex-shrink: 0;
+}
+
+.project-subtitle {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+  margin-bottom: var(--space-2);
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin-bottom: var(--space-2);
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: var(--space-2);
+}
+
+.project-stack li {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  background: var(--bone);
+  border: 1px solid var(--line);
+  padding: 0.25rem 0.65rem;
+}
+
+.project-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--slate);
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-responsibilities {
+  margin-bottom: var(--space-2);
+}
+
+.responsibilities-label {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--bronze);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.responsibilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.responsibilities-list li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  list-style: disc;
+}
+
+.more-projects {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line-soft);
+}
+
+.more-projects-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.more-projects-text {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}

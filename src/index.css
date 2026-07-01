@@ -1,0 +1,88 @@
+:root {
+  /* Color */
+  --bone: #FAF9F5;
+  --ink: #20231F;
+  --ink-soft: #5C5F57;
+  --line: #DEDCD3;
+  --line-soft: #EAE8E0;
+  --slate: #2E5B8A;
+  --bronze: #7B5C1A;
+  --surface: #EFF2F5;
+
+  /* Type */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Raleway', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Layout */
+  --rail-width: 320px;
+  --content-max: 760px;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 19px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ink);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--slate);
+  outline-offset: 3px;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+}

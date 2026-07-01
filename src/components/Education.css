@@ -1,0 +1,38 @@
+.education {
+  margin-bottom: var(--space-4);
+}
+
+.education-main {
+  margin-bottom: var(--space-3);
+}
+
+.education-main h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.2rem;
+}
+
+.education-institution {
+  font-size: 0.95rem;
+  color: var(--slate);
+  font-weight: 500;
+}
+
+.transversales-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.transversales-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.transversales-list li {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 0.25rem 0.65rem;
+}

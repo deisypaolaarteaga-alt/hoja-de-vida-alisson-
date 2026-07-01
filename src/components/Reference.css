@@ -1,0 +1,44 @@
+.reference {
+    margin-bottom: var(--space-4);
+}
+
+.reference-card {
+    padding: var(--space-3);
+    border: 1px solid var(--line);
+    background: var(--surface);
+}
+
+.reference-name {
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.reference-role {
+    font-size: 0.95rem;
+    color: var(--slate);
+    font-weight: 500;
+    margin-bottom: var(--space-2);
+}
+
+.reference-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.reference-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--bronze);
+    text-transform: lowercase;
+    letter-spacing: 0.04em;
+}
+
+.reference-contact a {
+    font-size: 0.85rem;
+    color: var(--ink);
+}
+
+.reference-contact a:hover {
+    color: var(--slate);
+}

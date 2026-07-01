@@ -1,0 +1,31 @@
+.intro {
+  margin-bottom: var(--space-4);
+}
+
+.intro-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--bronze);
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  margin-bottom: var(--space-2);
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  max-width: 62ch;
+  margin-bottom: 0.75rem;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
