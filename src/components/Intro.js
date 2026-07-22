@@ -7,7 +7,9 @@ function Intro() {
     <section className="intro">
       <p className="intro-eyebrow"><User size={14} />Perfil</p>
       <p className="intro-text">
-        Soy desarrolladora frontend con facilidad para adaptarme a entornos nuevos y trabajar en equipo.
+        Soy desarrolladora de software orientada al desarrollo Full Stack, con experiencia construyendo aplicaciones completas
+        desde el diseño y la lógica backend hasta la gestión e integración con bases de datos.
+        Me considero una persona proactiva, con facilidad para adaptarme a entornos nuevos y trabajar en equipo.
         Me comunico bien, escucho antes de actuar y me involucro de verdad con lo que el equipo
         necesita para sacar adelante el trabajo.
       </p>
